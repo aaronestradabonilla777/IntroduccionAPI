@@ -1,0 +1,22 @@
+{
+  "name": "apiexpress",
+  "version": "1.0.0",
+  "description": "Practica 3 Unidad 2 Introduccion a las Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronestradabonilla777/IntroduccionAPI.git"
+  },
+  "author": "Aaron Bonilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronestradabonilla777/IntroduccionAPI/issues"
+  },
+  "homepage": "https://github.com/aaronestradabonilla777/IntroduccionAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
