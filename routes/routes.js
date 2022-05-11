@@ -33,5 +33,13 @@ app.get('/users/:id',(request, response)=>{
     });
 });
 
+//Agregar un nuevo usuario
+app.host ('/users', (request, response)=>{
+    pool.query('INSERT INTO users SET ?', request.body, (error, result)=>{
+        if (error) throw error;
+        response.status(201).send(`User added with ID: $ {result.insertId}`);
+    });
+});
+
 
 }
