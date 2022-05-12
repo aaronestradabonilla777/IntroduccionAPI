@@ -68,3 +68,6 @@ app.delete ('/users/:id',(request, response)=>
 
 
 }
+
+//Exportar el router
+module.exports = router;
