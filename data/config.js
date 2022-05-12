@@ -12,5 +12,5 @@ const config ={
 //Create a MYSQL pool
 const pool= mysql.createPool(config);
 
-//Export the pool
+//Export the poolll
 module.exports=pool;
